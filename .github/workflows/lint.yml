@@ -1,4 +1,4 @@
-name: 'Tests'
+name: 'Lint'
 on: push
 jobs:
   test:
@@ -10,5 +10,5 @@ jobs:
       - name: Install dependencies
         run: yarn
 
-      - name: Run tests
-        run: jest src
+      - name: Lint TypeScript/Vue files
+        run: eslint --fix --ext .ts,vue --ignore-path .gitignore . && yarn prettier -w -u .
