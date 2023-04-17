@@ -7,8 +7,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Gentleman
+        run: echo 'Hello, World!'
+
       - name: Install dependencies
-        run: yarn
+        run: pip install -r requirements.txt
 
       - name: Run tests
         run: jest src
