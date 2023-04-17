@@ -11,4 +11,4 @@ jobs:
         run: yarn
 
       - name: Lint TypeScript/Vue files
-        run: eslint --fix --ext .ts,vue --ignore-path .gitignore . && yarn prettier -w -u .
+        run: yarn lint
