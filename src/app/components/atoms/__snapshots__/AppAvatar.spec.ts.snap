@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppAvatar stories snapshots [snapshot] should render the "PicsumPhoto" component story correctly 1`] = `
+<img
+  alt="The TheBaronless's avatar"
+  class="box-content p-0.5 rounded-full border-2 border-neutral-light w-10 h-10"
+  src="https://picsum.photos/50"
+/>
+`;

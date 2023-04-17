@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerProgressBar stories snapshots [snapshot] should render the "Progress0" component story correctly 1`] = `
+<div
+  class="overflow-hidden h-1 rounded-full bg-primary/20"
+>
+  <div
+    class="h-full bg-primary"
+    style="width: 0%;"
+  />
+</div>
+`;
+
+exports[`PlayerProgressBar stories snapshots [snapshot] should render the "Progress42" component story correctly 1`] = `
+<div
+  class="overflow-hidden h-1 rounded-full bg-primary/20"
+>
+  <div
+    class="h-full bg-primary"
+    style="width: 42%;"
+  />
+</div>
+`;
+
+exports[`PlayerProgressBar stories snapshots [snapshot] should render the "Progress50" component story correctly 1`] = `
+<div
+  class="overflow-hidden h-1 rounded-full bg-primary/20"
+>
+  <div
+    class="h-full bg-primary"
+    style="width: 50%;"
+  />
+</div>
+`;
+
+exports[`PlayerProgressBar stories snapshots [snapshot] should render the "Progress100" component story correctly 1`] = `
+<div
+  class="overflow-hidden h-1 rounded-full bg-primary/20"
+>
+  <div
+    class="h-full bg-primary"
+    style="width: 100%;"
+  />
+</div>
+`;

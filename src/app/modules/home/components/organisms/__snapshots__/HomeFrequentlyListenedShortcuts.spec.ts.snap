@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeFrequentlyListenedShortcuts stories snapshots [snapshot] should render the "Default" component story correctly 1`] = `
+<div
+  class="flex items-center bg-white rounded pr-2"
+>
+  <img
+    alt="Song or album image"
+    class="rounded"
+    src="https://picsum.photos/50"
+  />
+  <span
+    class="ml-3"
+  >
+    
+    Liked songs
+    
+  </span>
+</div>
+`;

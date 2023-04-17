@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppIconComment stories snapshots [snapshot] should render the "IconCommentWithCounter" component story correctly 1`] = `
+<span
+  class="flex items-center text-neutral"
+>
+  <anonymous-stub
+    path="[object Object]"
+  />
+  <span
+    class="ml-2"
+  >
+    10
+  </span>
+</span>
+`;
+
+exports[`AppIconComment stories snapshots [snapshot] should render the "JustIconComment" component story correctly 1`] = `
+<span
+  class="flex items-center text-neutral"
+>
+  <anonymous-stub
+    path="[object Object]"
+  />
+  <!--v-if-->
+</span>
+`;

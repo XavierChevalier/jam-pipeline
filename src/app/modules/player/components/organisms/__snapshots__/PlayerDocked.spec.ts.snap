@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerDocked stories snapshots [snapshot] should render the "Default" component story correctly 1`] = `
+<div>
+  <div
+    class="text-xs flex px-5 py-3 rounded shadow-lg bg-primary-light items-center"
+  >
+    <anonymous-stub
+      class="mr-3"
+      size="sm"
+      track="[object Object]"
+    />
+    <div
+      class="flex flex-col"
+    >
+      <div>
+        <span
+          class="font-bold"
+        >
+          ANSI.SYS
+        </span>
+        <anonymous-stub />
+        
+        <span>
+          MASTER BOOT RECORD
+        </span>
+        
+      </div>
+      <!--v-if-->
+    </div>
+    <div
+      class="flex ml-auto"
+    >
+      <anonymous-stub
+        class="mr-3 text-black"
+        counter="0"
+        liked="false"
+        showcounter="false"
+      />
+      <anonymous-stub
+        path="M8.5,8.64L13.77,12L8.5,15.36V8.64M6.5,5V19L17.5,12"
+      />
+    </div>
+  </div>
+  <anonymous-stub
+    class="mx-5 translate-y-[-50%]"
+    progress="50"
+  />
+</div>
+`;
+
+exports[`PlayerDocked stories snapshots [snapshot] should render the "ListeningOnDesktop" component story correctly 1`] = `
+<div>
+  <div
+    class="text-xs flex px-5 py-3 rounded shadow-lg bg-primary-light items-center"
+  >
+    <anonymous-stub
+      class="mr-3"
+      size="sm"
+      track="[object Object]"
+    />
+    <div
+      class="flex flex-col"
+    >
+      <div>
+        <span
+          class="font-bold"
+        >
+          ANSI.SYS
+        </span>
+        <anonymous-stub />
+        
+        <span>
+          MASTER BOOT RECORD
+        </span>
+        
+      </div>
+      <anonymous-stub
+        remotedevicename="Desktop-B9M8G7J"
+      />
+    </div>
+    <div
+      class="flex ml-auto"
+    >
+      <anonymous-stub
+        class="mr-3 text-black"
+        counter="0"
+        liked="false"
+        showcounter="false"
+      />
+      <anonymous-stub
+        path="M8.5,8.64L13.77,12L8.5,15.36V8.64M6.5,5V19L17.5,12"
+      />
+    </div>
+  </div>
+  <anonymous-stub
+    class="mx-5 translate-y-[-50%]"
+    progress="50"
+  />
+</div>
+`;
